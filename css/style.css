@@ -139,39 +139,80 @@ nav {
    margin-right: 0;
 }
  
-.planos{
+/* prices and plans */
+.pricing-container {
+    padding-bottom: 5rem;
     text-align: center;
-}
-
-.planos a{
-    text-decoration: none;
-    color: black;
-}
-
-ul #valor-mes {
-    width: 130px;
-    height: 130px;
-    background-color: #2cc762;
-    color: white;
-    border-radius: 50%;
+  }
+  
+  .pricing-container h2 {
+    font-size: 36px;
+  }
+  
+  .pricing-container p {
+    font-size: 20px;
+  }
+  
+  .plans-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+  }
+  
+  .plan {
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+  }
+  
+  .plan ul {
+    padding: 0;
+  }
+  
+  .plan li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea;
+    color: #333;
+  }
+  
+  .plan .price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2cc762;
+    color: #fff;
     text-align: center;
-}
-    #vermelho{
-        background-color: #f45c57;
-    }
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+  }
 
-    .planos li{
-        background-color: #E8E9EA
-    }
-    
-    
-    ul #name-kit{
-    background-color: black;
-    color: white;
-    padding: 60px 0 10px 0;
-    margin-top: -50px;
-    }
+  .plan .nome-plano {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #202b34;
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: center;
+  }
+  
+  .plan .plano-btn {
+    background-color: #18c956;
+    color: #fff;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+  }
+  
+  .plan .recommended {
+    background-color: #ff0800;
+  }
+  
