@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, arial, sans-serif;
 }
 
 p{
@@ -114,16 +114,64 @@ nav {
     padding: 0 70px;
 }
 
-.plano-preco{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .plano-preco h2{
     font-size: 38px;
 }
+
 .plano-preco p{
     font-size: 20px;
     box-sizing: border-box;
+    padding-bottom: 50px;
 }
+
+.planos ul{
+    display: inline-block;
+    justify-content: space-evenly;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 2%;
+    
+    list-style: none;
+}
+
+
+.planos ul:last-child{
+   margin-right: 0;
+}
+ 
+.planos{
+    text-align: center;
+}
+
+.planos a{
+    text-decoration: none;
+    color: black;
+}
+
+ul #valor-mes {
+    width: 130px;
+    height: 130px;
+    background-color: #2cc762;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    #vermelho{
+        background-color: #f45c57;
+    }
+
+    .planos li{
+        background-color: #E8E9EA
+    }
+    
+    
+    ul #name-kit{
+    background-color: black;
+    color: white;
+    padding: 60px 0 10px 0;
+    margin-top: -50px;
+    }
