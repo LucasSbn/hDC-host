@@ -4,7 +4,7 @@
     font-family: Helvetica, arial, sans-serif;
 }
 
-p{
+p {
     color: gray;
 }
 
@@ -24,7 +24,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    
+
     list-style: none;
     margin-top: -35px;
     margin-right: 30px;
@@ -38,22 +38,27 @@ nav {
 .navbar-container ul li a {
     text-decoration: none;
     color: white;
+
+    transition: 0.5s;
+    border: 1px solid transparent;
+    padding: 15px 20px;
+    border-radius: 5px;
 }
 
-.navbar-container ul .entrar a{
+.navbar-container ul .entrar a {
     background-color: #2cc76a;
     border: 1px solid #2cc76a;
     padding: 15px 20px;
     border-radius: 5px;
 
-    transition: 0.5s;
+    transition: 0.5;
 }
 
-.banner-principal{
+.banner-principal {
     background-image: url(../img/mainbanner.png);
     background-position: center;
     background-size: cover;
-    
+
     width: 100%;
     height: 450px;
 }
@@ -65,123 +70,126 @@ nav {
     align-items: center;
 }
 
-.banner-principal h1, .banner-principal p {
+.banner-principal h1,
+.banner-principal p {
     color: white;
     text-shadow: #000 3px 2px 3px;
     font-weight: bold;
     text-align: center;
 }
 
-.banner-principal h1{
+.banner-principal h1 {
     font-size: 60px;
 }
 
-.banner-principal p{
+.banner-principal p {
     font-size: 35px;
 }
 
-.service-container{
+.service-container {
     padding: 80px 0;
     display: flex;
 
     text-align: center;
     list-style: none;
 }
-.service-container p{
+
+.service-container p {
     font-size: 17px;
 }
-.service-container h3{
+
+.service-container h3 {
     color: black;
     font-weight: bold;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.fas{
+.fas {
     font-size: 60px;
 }
 
-.fa-shield-alt{
+.fa-shield-alt {
     color: #2cc76a;
 }
 
-.fa-rocket{
+.fa-rocket {
     color: #ef3f29;
 }
 
-.fa-comments{
+.fa-comments {
     color: #ef8f29;
 }
 
-.service-container li{
+.service-container li {
     padding: 0 70px;
 }
 
-.plano-preco h2{
+.plano-preco h2 {
     font-size: 38px;
 }
 
-.plano-preco p{
+.plano-preco p {
     font-size: 20px;
     box-sizing: border-box;
     padding-bottom: 50px;
 }
 
-.planos ul{
+.planos ul {
     display: inline-block;
     justify-content: space-evenly;
     vertical-align: top;
     width: 20%;
     margin-right: 2%;
-    
+
     list-style: none;
 }
 
 
-.planos ul:last-child{
-   margin-right: 0;
+.planos ul:last-child {
+    margin-right: 0;
 }
- 
+
 
 .pricing-container {
     padding-bottom: 5rem;
     text-align: center;
-  }
-  
-  .pricing-container h2 {
+}
+
+.pricing-container h2 {
     font-size: 36px;
-  }
-  
-  .pricing-container p {
+}
+
+.pricing-container p {
     font-size: 20px;
-  }
-  
-  .plans-container {
+}
+
+.plans-container {
     display: flex;
     justify-content: space-between;
     width: 90%;
     margin: 50px auto 0;
-  }
-  
-  .plan {
+}
+
+.plan {
     flex: 1;
     max-width: 275px;
     margin: 0 20px;
-  }
-  
-  .plan ul {
+}
+
+.plan ul {
     padding: 0;
-  }
-  
-  .plan li {
+}
+
+.plan li {
     list-style: none;
     height: 50px;
     line-height: 50px;
     background-color: #e8e9ea;
     color: #333;
-  }
-  
-  .plan .price {
+}
+
+.plan .price {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -192,9 +200,9 @@ nav {
     margin: 0 auto -50px;
     font-size: 18px;
     position: relative;
-  }
+}
 
-  .plan .nome-plano{
+.plan .nome-plano {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
@@ -204,9 +212,9 @@ nav {
 
     display: flex;
     justify-content: center;
-  }
-  
-  .plan .plano-btn{
+}
+
+.plan .plano-btn {
     background-color: #18c956;
     border: 1px solid #18c956;
     color: #fff;
@@ -218,40 +226,41 @@ nav {
     cursor: pointer;
 
     transition: 0.5s;
-  }
-  
-  .plan .recommended{
+}
+
+.plan .recommended {
     background-color: #ff0800;
-  }
-  
-.dominio{
+}
+
+.dominio {
     width: 100%;
     height: 400px;
     background-color: #34454e;
 
 
 }
-.dominio .conteudo-dominio{
+
+.dominio .conteudo-dominio {
     color: white;
-  
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.conteudo-dominio h2{
+.conteudo-dominio h2 {
     margin-top: 80px;
     font-size: 35px;
 }
 
-.conteudo-dominio p{
-    margin-top:15px;
+.conteudo-dominio p {
+    margin-top: 15px;
     font-size: 25px;
     color: #d5d5d5;
 }
 
-.conteudo-dominio input{
+.conteudo-dominio input {
     margin-top: 30px;
     width: 550px;
     height: 60px;
@@ -263,7 +272,7 @@ nav {
     border-radius: 10px;
 }
 
-.conteudo-dominio button{
+.conteudo-dominio button {
     width: 250px;
     height: 60px;
 
@@ -275,15 +284,15 @@ nav {
     border: none;
 }
 
-.dominio form{
-  
+.dominio form {
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.dominio button{
+.dominio button {
     font-size: 20px;
     margin-top: 20px;
 
@@ -300,19 +309,20 @@ nav {
     transition: 0.5s;
 }
 
-.dominio button:hover, .navbar-container ul .entrar a:hover{
+.dominio button:hover,
+.navbar-container ul .entrar a:hover {
     background-color: transparent;
     border: 1px solid #2cc762;
 }
 
-.plan .plano-btn:hover{
+.plan .plano-btn:hover {
     background-color: transparent;
     border: 0.5px solid #18c956;
     border-radius: 5px;
     color: black;
 }
 
-.support-container{
+.support-container {
     margin-top: 100px;
     display: flex;
     align-items: center;
@@ -320,16 +330,16 @@ nav {
     flex-direction: column;
 }
 
-.support-container h2{
+.support-container h2 {
     font-size: 40px;
 }
 
-.support-container p{
+.support-container p {
     margin: 10px 0 20px 0;
     font-size: 20px;
 }
 
-.support-container form{
+.support-container form {
     display: block;
     align-items: center;
     justify-content: center;
@@ -337,7 +347,8 @@ nav {
     text-align: center;
 }
 
-.support-container form #name, #email{
+.support-container form #name,
+#email {
     margin: 10px;
 
     background-color: transparent;
@@ -345,28 +356,28 @@ nav {
     font-size: 19px;
     width: 200px;
     height: 40px;
-    
+
     border-radius: 5px;
     border: 1px solid gray;
 }
 
-.support-container form #support-textarea{
+.support-container form #support-textarea {
     width: 470px;
     height: 150px;
-    
+
     border-radius: 10px;
     border: 1px solid gray;
 
     font-size: 19px;
-  }
+}
 
-  #name-logo{
+#name-logo {
     margin: 120px 0;
     font-weight: bold;
     font-size: 15px;
-  }
+}
 
-.support-container form  button{
+.support-container form button {
     width: 190px;
     height: 40px;
 
@@ -376,8 +387,99 @@ nav {
     border: none;
 
     background-color: #2cc762;
+    color: white;
+
+    transition: 0.5s;
 }
 
-.plans-container .plan ul .recommended{
+.plans-container .plan ul .recommended {
     border: 1px solid #FF0800;
+}
+
+/*"small" para laptop's pequenos*/
+@media (max-width: 1100px) {
+    .plans-container {
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+}
+
+/*Tablet*/
+@media (max-width: 900px) {
+    .main-banner p {
+        padding: 0 6rem;
+    }
+
+    .searchdomain-container {
+        padding: 2rem 4rem;
+    }
+}
+
+/*Ceular*/
+@media (max-width: 597px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .main-banner p {
+        padding: 0 2rem;
+    }
+
+    .services-container ul {
+        flex-direction: column;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .searchdomain-container h2 {
+        font-size: 28px;
+    }
+
+    .searchdomain-container input[type="text"] {
+        width: 100%;
+    }
+
+    .contact-container {
+        padding: 3rem 2rem;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+.navbar-container #home:hover,
+.navbar-container #preco:hover,
+.navbar-container #contato:hover {
+    background-color: transparent;
+    border: 1px solid white;
+
+}
+
+.support-container form button:hover{
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
 }
