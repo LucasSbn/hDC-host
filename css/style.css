@@ -49,7 +49,7 @@ nav {
 }
 
 .banner-principal{
-    background-image: url(/img/mainbanner.png);
+    background-image: url(../img/mainbanner.png);
     background-position: center;
     background-size: cover;
     
