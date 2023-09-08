@@ -141,7 +141,7 @@ nav {
    margin-right: 0;
 }
  
-/* prices and plans */
+
 .pricing-container {
     padding-bottom: 5rem;
     text-align: center;
@@ -314,4 +314,23 @@ nav {
     border: 1px solid #ef3f29;
     border-radius: 5px;
     color: black;
+}
+
+.support-container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.support-container form{
+    display: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.support-container form #name{
+    
 }
