@@ -44,10 +44,12 @@ nav {
     background-color: #2cc76a;
     padding: 15px 20px;
     border-radius: 5px;
+
+    transition: 0.5s;
 }
 
 .banner-principal{
-    background-image: url(../img/mainbanner.png);
+    background-image: url(/img/mainbanner.png);
     background-position: center;
     background-size: cover;
     
@@ -191,7 +193,7 @@ nav {
     position: relative;
   }
 
-  .plan .nome-plano {
+  .plan .nome-plano{
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
@@ -203,16 +205,113 @@ nav {
     justify-content: center;
   }
   
-  .plan .plano-btn {
+  .plan .plano-btn{
     background-color: #18c956;
     color: #fff;
     font-size: 24px;
     height: 75px;
     line-height: 75px;
     cursor: pointer;
+
+    transition: 0.5s;
   }
   
-  .plan .recommended {
+  .plan .recommended{
     background-color: #ff0800;
+
+    transition: 0.5s;
   }
   
+.dominio{
+    width: 100%;
+    height: 400px;
+    background-color: #34454e;
+
+
+}
+.dominio .conteudo-dominio{
+    color: white;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudo-dominio h2{
+    margin-top: 80px;
+    font-size: 35px;
+}
+
+.conteudo-dominio p{
+    margin-top:15px;
+    font-size: 25px;
+    color: #d5d5d5;
+}
+
+.conteudo-dominio input{
+    margin-top: 30px;
+    width: 550px;
+    height: 60px;
+
+    font-size: 20px;
+
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.conteudo-dominio button{
+    width: 250px;
+    height: 60px;
+
+    background-color: #2cc762;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.dominio form{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dominio button{
+    font-size: 20px;
+    margin-top: 20px;
+
+    border-radius: 10px;
+    border: none;
+
+    width: 250px;
+    height: 50px;
+
+    background-color: #2cc762;
+    color: white;
+
+    transition: 0.5s;
+}
+
+.dominio button:hover, .navbar-container ul .entrar a:hover{
+    background-color: transparent;
+    border: 1px solid #2cc762;
+}
+
+.plan .plano-btn:hover{
+    background-color: transparent;
+    border: 1px solid #18c956;
+    border-radius: 5px;
+    color: black;
+}
+
+.plan .recommended:hover{
+    background-color: transparent;
+    border: 1px solid #ef3f29;
+    border-radius: 5px;
+    color: black;
+}
