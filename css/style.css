@@ -42,6 +42,7 @@ nav {
 
 .navbar-container ul .entrar a{
     background-color: #2cc76a;
+    border: 1px solid #2cc76a;
     padding: 15px 20px;
     border-radius: 5px;
 
@@ -207,7 +208,10 @@ nav {
   
   .plan .plano-btn{
     background-color: #18c956;
+    border: 1px solid #18c956;
     color: #fff;
+
+
     font-size: 24px;
     height: 75px;
     line-height: 75px;
@@ -218,8 +222,6 @@ nav {
   
   .plan .recommended{
     background-color: #ff0800;
-
-    transition: 0.5s;
   }
   
 .dominio{
@@ -292,6 +294,7 @@ nav {
     height: 50px;
 
     background-color: #2cc762;
+    border: 1px solid #2cc762;
     color: white;
 
     transition: 0.5s;
@@ -304,14 +307,7 @@ nav {
 
 .plan .plano-btn:hover{
     background-color: transparent;
-    border: 1px solid #18c956;
-    border-radius: 5px;
-    color: black;
-}
-
-.plan .recommended:hover{
-    background-color: transparent;
-    border: 1px solid #ef3f29;
+    border: 0.5px solid #18c956;
     border-radius: 5px;
     color: black;
 }
@@ -324,13 +320,64 @@ nav {
     flex-direction: column;
 }
 
+.support-container h2{
+    font-size: 40px;
+}
+
+.support-container p{
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+}
+
 .support-container form{
-    display: column;
+    display: block;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
-/* .support-container form #name{
+.support-container form #name, #email{
+    margin: 10px;
 
-} */
+    background-color: transparent;
+
+    font-size: 19px;
+    width: 200px;
+    height: 40px;
+    
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.support-container form #support-textarea{
+    width: 470px;
+    height: 150px;
+    
+    border-radius: 10px;
+    border: 1px solid gray;
+
+    font-size: 19px;
+  }
+
+  #name-logo{
+    margin: 120px 0;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+.support-container form  button{
+    width: 190px;
+    height: 40px;
+
+    margin-top: 20px;
+
+    border-radius: 5px;
+    border: none;
+
+    background-color: #2cc762;
+}
+
+.plans-container .plan ul .recommended{
+    border: 1px solid #FF0800;
+}
