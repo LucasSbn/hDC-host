@@ -500,23 +500,23 @@ nav {
         margin: 10px 0;
     }
 
-    .navbar-container #home:hover,
-    .navbar-container #preco:hover,
-    .navbar-container #contato:hover {
-        background-color: transparent;
-        border: 1px solid white;
-
-    }
-
-    .support-container form button:hover {
-        background-color: transparent;
-        border: 1px solid #000;
-        color: #000;
-    }
-
     .btn-header{
-        display: none; /* Oculta todos os itens de navegação */
+        display: none;
     }
+}
+
+.navbar-container #home:hover,
+.navbar-container #preco:hover,
+.navbar-container #contato:hover {
+    background-color: transparent;
+    border: 1px solid white;
+
+}
+
+.support-container form button:hover {
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
 }
 
 
